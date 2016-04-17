@@ -1,0 +1,226 @@
+/* ---------- GENERAL ---------- */
+* {
+  box-sizing: border-box;
+}
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+textarea, textarea:hover,textarea:active{
+	border: 1px solid lightgreen;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	background: #F4F4F4;
+	-moz-box-shadow: 0px 2px 4px SKYBLUE;
+	-webkit-box-shadow: 0px 2px 4px SKYBLUE;
+	box-shadow: 0px 2px 4px SKYBLUE;
+	padding: 10px;
+	line-height: 18px;
+	margin: 5px auto;
+	text-align: justify;
+	font: 12pt "Myriad Pro", Arial;
+	color: #BADA55;
+	width: 100%;
+	height: 65px;
+	resize: none;
+	text-shadow: 0 1px 0 rgba(255,255,255,1.0);
+}
+
+h3 {
+  margin: 0;
+}
+
+a {
+  color: #999;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1dabb8;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+}
+
+input, select{
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  	border: 1px solid lightgreen;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	background: #F4F4F4;
+	-moz-box-shadow: 0px 2px 4px SKYBLUE;
+	-webkit-box-shadow: 0px 2px 4px SKYBLUE;
+	box-shadow: 0px 2px 4px SKYBLUE;
+  -webkit-appearance: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+  content: ' ';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+.container {
+	margin: 0 auto;
+	margin-left: -6.5px;
+}
+
+/* ---------- LOGIN-FORM ---------- */
+#login-form {
+  width: 240px;
+  border-radius: 6px;
+  border-bottom: 8px solid #333;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+#login-form2{
+  margin: 0 auto;
+  text-align: center;
+  width: 650px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  border-bottom: 8px solid #333;
+}
+
+#login-form3{  margin: 0 auto;
+  width: 95%;
+  border-radius: 6px;}
+
+#login-form h3, #login-form2 h3 {
+  background-color: #282830;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 13px;
+  padding: 13px;
+  width: 100%;
+  margin:0 auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#login-form fieldset, #login-form2 fieldset, #login-form3 fieldset {
+  background: #fff;
+  border-radius: 0 0 5px 5px;
+  padding: 13px;
+  position: relative;
+}
+
+#login-form fieldset:before{
+  background-color: #fff;
+  content: "";
+  height: 8px;
+  left: 50%;
+  margin: -4px 0 0 -4px;
+  position: absolute;
+  top: 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 8px;
+}
+
+#login-form input,#login-form2 select, #login-form2 input, #login-form3 input{
+  font-size: 14px;
+}
+
+#login-form input[type="text"],
+#login-form3 input[type="text"],
+#login-form input[type="password"]{
+  border: 1px solid #dcdcdc;
+  margin-top: 1px;
+  padding: 12px 10px;
+  width: 100%;
+}
+
+#login-form2 input[type="text"],
+#login-form2 input[type="password"] {
+  border: 1px solid #dcdcdc;
+  padding: 15px 12px;
+  width: 85%;
+  margin: 1px auto;
+}
+
+#login-form2 select{
+	border: 1px solid #dcdcdc;
+	margin-top: 1px;
+	padding: 12px;
+	width: 100%;
+}
+
+#login-form input[type="text"],
+#login-form3 input[type="text"],
+#login-form2 select,
+#login-form2 input[type='text'] {
+  border-radius: 3px 3px 0 0;
+}
+
+#login-form input[type="password"],
+#login-form2 select,
+#login-form2 input[type='password'] {
+  border-top: none;
+  border-radius: 0px 0px 3px 3px;
+}
+
+#login-form input[type="submit"],
+#login-form3 input[type="submit"]{
+  background: #1dabb8;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 6px 10px;
+}
+
+#login-form2 input[type='submit'] {
+  background: #1dabb8;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px 13px;
+}
+
+#login-form input[type="submit"]:hover,
+#login-form2 input[type="submit"]:hover,
+#login-form3 input[type='submit']:hover {
+  background: #198d98;
+}
+
+#login-form footer,#login-form2 footer, #login-form3 footer {
+	display: block;
+  font-size: 10.5px;
+  text-align: left;
+  margin-top: 26px;
+}
+
+.info {
+  background: #e5e5e5;
+  border-radius: 50%;
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 10px 0 0;
+  text-align: center;
+  width: 20px;
+}

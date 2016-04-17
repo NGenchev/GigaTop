@@ -1,0 +1,60 @@
+﻿.search_field {display: inline-block;}
+
+.search_field input {
+	border: none;
+	padding: 0;
+}
+
+.search_field button {
+	border: none;
+	background: none;
+}
+
+.search_field input[placeholder],
+.search_field 	   [placeholder]{
+	font: 12.5pt "Myriad Pro";
+	color: #5d6d76;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    font: 13pt "Myriad Pro";
+	color: #5d6d76;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   	font: 13pt "Myriad Pro";
+	color: #5d6d76;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  	font: 13pt "Myriad Pro";
+	color: #5d6d76;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+	font: 13pt "Myriad Pro";
+	color: #5d6d76;
+}
+
+.search_field input[type='search']{
+	height: 19px;
+	padding: 6px 5px;
+	width: 220px;
+	float: left;
+	outline: 1;
+	margin-top: 5px;
+	font: 13pt "Myriad Pro";
+	color: #5d6d76;
+	text-shadow: 1px 0px 1px rgba(255, 255, 255, 0.8);
+	border-radius: 3px 3px 0 0;
+	border: 1px solid #dcdcdc;
+}
+
+.search_field input[type='submit']{
+	background: url(../imgs/search.png) no-repeat;
+    cursor:pointer;
+	border: none;
+	width: 35px;
+	margin-top: 7px;
+	margin-left: -37px;
+	float: left;
+	outline: 0;
+	height: 28px;
+}
